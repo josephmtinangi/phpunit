@@ -2,7 +2,8 @@
 
 class UserTest extends \PHPUnit_Framework_TestCase
 {
-	public function testThatWeCanGetTheFirstName()
+	/** @test */
+	public function that_we_can_get_the_first_name()
 	{
 		$user = new \App\Models\User;
 
